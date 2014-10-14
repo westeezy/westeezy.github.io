@@ -1,0 +1,15 @@
+<div class="blog">
+  <h1>Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts limit:1 %}
+      <li>
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+    <div style="font-size:12px;">
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </div>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
