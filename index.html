@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="badge" style="border:2px solid #ddd; margin-top:100px;">
+    <div class="center-wrapper">
+      <div id="avatar-container">
+        <div class="avatar-img"></div>
+      </div>
+
+      <div class="info" style="text-align:center">
+        <h1 style="margin-bottom:-15px;">Westin Wrzesinski</h1>
+
+        <div style="height:30px;width:150px;margin:0 auto;">
+          {% include socialmedia/socialbuttons.html %}
+        </div>
+
+        <div style="font-size:14px; padding-left:12px; padding-bottom: 20px;">
+          <div>Senior Software Engineer </div>
+          <div>Chicago, IL </div>
+          <div>
+            Present:
+            <a href="https://www.slalom.com/locations/chicago"> Slalom Consulting </a>
+          </div>
+          <div>
+            Past:
+            <a href="http://blinqmedia.com">BLiNQ Media</a>
+            &
+            <a href="https://shoplocal.com">ShopLocal</a>
+          </div>
+          <div>Talented in JavaScript, Ruby, Java, C#, C amongst others</div>
+        </div>
+
+      </div>
+      <!--   <div class="blog">
+        <h1>Posts</h1>
+
+        <ul class="post-list">
+          {% for post in site.posts limit:1 %}
+            <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+          <div style="font-size:12px;">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </div>
+          </li>
+        {% endfor %}
+        </ul>
+        </div-->
+    </div>
+  </div>
+</div>
