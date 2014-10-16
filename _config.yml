@@ -1,10 +1,10 @@
 # Site settings
-title: Westin's Site
+title: Westin Wrzesinski Developer
 email: westin.wrzesinski@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Personal Site for Westin Wrzesinski. Software Engineer residing in Chicago, Illinois.
+  Graduated from Univeristy of Illinois at Chicago for Software Engineering.
+  Focused on web app development using technologies including: JavaScript, NodeJS, MongoDB, Postgres, .Net, C#, Ruby, Rails.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: westeeze
