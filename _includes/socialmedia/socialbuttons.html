@@ -1,27 +1,26 @@
 <ul class="social-media-list">
-  {% if site.github_username %}
+  {% if site.owner.github %}
     <li>
-  <a href="https://github.com/{{ site.github_username }}">
+  <a href="https://github.com/{{ site.owner.github }}">
     {% include svg_icons/github.html %}
   </a>
   </li>
 {% endif %}
 
-  {% if site.twitter_username %}
+  {% if site.owner.twitter %}
     <li>
-  <a href="https://twitter.com/{{ site.twitter_username }}">
+  <a href="https://twitter.com/{{ site.owner.twitter }}">
     {% include svg_icons/twitter.html %}
   </a>
   </li>
 {% endif %}
 
 
-  {% if site.linkedin_username %}
+  {% if site.owner.linkedin %}
     <li>
-  <a href="https://linkedin.com/{{ site.linkedin_username }}">
+  <a href="https://linkedin.com/{{ site.owner.linkedin }}">
     {% include svg_icons/linkedin.html %}
   </a>
   </li>
 {% endif %}
 </ul>
-

@@ -1,15 +1,42 @@
-# Site settings
-title: Westin Wrzesinski Developer
-email: westin.wrzesinski@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Personal Site for Westin Wrzesinski. Software Engineer residing in Chicago, Illinois.
-  Graduated from Univeristy of Illinois at Chicago for Software Engineering.
-  Focused on web app development using technologies including: JavaScript, NodeJS, MongoDB, Postgres, .Net, C#, Ruby, Rails.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: westeeze
-github_username:  westeezy
-linkedin_username: pub/westin-wrzesinski/44/106/4ba
+# Site wide configuration
 
-# Build settings
-markdown: kramdown
+title:            Westin Wrzesinski
+locale:           en_US
+url:              http://westinwrz.me
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+#gems:
+#  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+  hard_wrap: true
+
+
+# Site owner
+owner:
+  name: Westin Wrzesinski
+  avatar: avatar.png
+  bio: JavaScript enthusiast
+  email: westin.wrzesinski@gmail.com
+  disqus-shortname: westinwrz
+  twitter: westeeze
+  github: westeezy
+  linkedin: pub/westin-wrzesinski/44/106/4ba
+  google:
+    analytics: UA-63793266-1
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
