@@ -155,9 +155,7 @@ class MyInput extends React.Component {
        inputValue: 'User' //a default value for initial load
      };
    }
-
-
-
+   
    updateValue(e) {
      this.setState({ //built in way for React to modify state.
        inputValue: e.target.value
