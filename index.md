@@ -1,6 +1,6 @@
 ---
 layout: home
-excerpt: "Westin Wrzesinski Senior Software Engineer"
+excerpt: "Westin Wrzesinski Solutions Architect"
 tags: [blog]
 #image:
 #  feature: sample-image-1.jpg
