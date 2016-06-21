@@ -10,7 +10,7 @@ comments: false
 #  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-Senior Software Engineer at Slalom Consulting.
+Solutions Architect at Slalom Consulting.
 
 ## I am  is all about:
 
